@@ -40,6 +40,6 @@ To get started with the project, clone this repository and set up the environmen
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/eye-disease-classifier.git
+git clone https://github.com/UdaraChamidu/eye-disease-classifier.git
 cd eye-disease-classifier
 
