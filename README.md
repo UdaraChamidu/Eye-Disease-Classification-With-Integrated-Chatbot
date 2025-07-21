@@ -41,5 +41,4 @@ Our system performs **automated classification of eye diseases** using retinal/O
 
 ---
 
-## 🗃️ Project Structure
 
