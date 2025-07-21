@@ -41,4 +41,7 @@ Our system performs **automated classification of eye diseases** using retinal/O
 
 ---
 
-
+### To run the RAG application
+```
+streamlit run .\rag_app.py
+```
