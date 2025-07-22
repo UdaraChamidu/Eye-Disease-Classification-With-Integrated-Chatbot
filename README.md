@@ -42,6 +42,10 @@ Our system performs **automated classification of eye diseases** using retinal/O
 ---
 
 ### To run the RAG application
+
+- rag_app.py for groq
+- rag_app1.py for OpenAI
+
 ```
-streamlit run .\rag_app.py
+streamlit run .\rag_app1.py
 ```
