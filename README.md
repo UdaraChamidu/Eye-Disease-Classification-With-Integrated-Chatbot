@@ -70,7 +70,6 @@ Exploring the **predictive power of multimodal fusion** with Generative AI in op
 - **Streamlit** (Prototype UI)
 
 ## 📜 References
-(Include your reference list here from the presentation slides.)
 
 ```
 assets/
