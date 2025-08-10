@@ -3,13 +3,35 @@ import logging
 import warnings
 import streamlit as st
 from dotenv import load_dotenv
-
+  
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI  # ✅ Gemini API
+
+import tensorflow as tf
+import numpy as np
+from PIL import Image
+import sys
+from io import StringIO
+
+# Load your CNN model once
+@st.cache_resource  # cache so it loads only once
+def load_cnn_model():
+    model = tf.keras.models.load_model("my_model.keras")
+    return model
+    
+cnn_model = load_cnn_model()
+
+def preprocess_image(image_data, target_size=(256, 256)):
+    img = Image.open(image_data).convert('RGB')
+    img = img.resize(target_size)
+    img_array = np.array(img)  # <-- no /255.0 here
+    img_array = np.expand_dims(img_array, axis=0).astype(np.float32)
+    return img_array
+
 
 # Load environment variables
 load_dotenv()
@@ -80,9 +102,10 @@ prompt_template = PromptTemplate.from_template("""
 Tasks:
 - Answer the question using only the following context.
 - If the question is not about eye diseases, politely decline.
-- Use the context to give a helpful, clear answer.
+- Use the context to give a helpful, clear and explainable answer.
 - If the question is unclear, ask the user for more info.
 - Give answers in a friendly and easy-to-read way.
+- if the provided content have not the correct answers, answer for the query according to your knowledge
 
 Context:
 {context}
@@ -110,11 +133,24 @@ def get_qa_chain():
 # 🖼️ Image-Only Mode
 if st.session_state.mode == "image":
     st.subheader("🖼️ Image Input Mode")
-    uploaded_file = st.file_uploader("Upload an Eye Image", type=["png", "jpg", "jpeg"])
+    uploaded_file = st.file_uploader("Upload an Eye Image", type=["png", "jpg", "jpeg", "bmp", "tif", "tiff"])
     if uploaded_file:
-        st.image(uploaded_file, caption="Uploaded Eye Image", use_column_width=True)
-        st.warning("🚧 Image-only model inference not implemented yet.")
+        st.image(uploaded_file, caption="Uploaded Eye Image", use_container_width=True)
+        
+        # Preprocess image for CNN
+        img_array = preprocess_image(uploaded_file)
 
+        # Predict
+        prediction = cnn_model.predict(img_array)
+        st.write("Raw prediction:", prediction)
+        
+        class_names = ['Cataract', 'Diabetic Retinopathy', 'Glaucoma', 'Normal']
+        predicted_index = np.argmax(prediction[0])
+        confidence = prediction[0][predicted_index]
+        
+        st.success(f"Prediction: **{class_names[predicted_index]}** with confidence {confidence*100:.2f}%")   
+
+  
 # 💬 Text-Only Mode
 elif st.session_state.mode == "text":
     st.subheader("💬 Text Input Mode")
@@ -142,7 +178,7 @@ elif st.session_state.mode == "both":
     query = st.chat_input("Add text symptoms or questions here...")
 
     if uploaded_file:
-        st.image(uploaded_file, caption="Uploaded OCT Image", use_column_width=True)
+        st.image(uploaded_file, caption="Uploaded OCT Image", use_container_width=True)
 
     if query:
         st.chat_message("user").markdown(query)
