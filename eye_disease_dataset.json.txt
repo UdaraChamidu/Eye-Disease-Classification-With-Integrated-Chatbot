@@ -1,0 +1,2774 @@
+[
+  {
+    "role": "system",
+    "content": "You are an assistant"
+  },
+  {
+    "role": "user",
+    "content": "What is glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Glaucoma is a group of eye diseases characterized by progressive optic neuropathy resulting in visual field loss, often associated with raised intraocular pressure (IOP)."
+  },
+  {
+    "role": "user",
+    "content": "What are the main types of glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "The main types are primary open-angle glaucoma (POAG) and primary angle-closure glaucoma (PACG)."
+  },
+  {
+    "role": "user",
+    "content": "What is the typical clinical feature of primary open-angle glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Usually asymptomatic until advanced; characterized by a gradual increase in IOP, optic disc cupping, and peripheral visual field loss."
+  },
+  {
+    "role": "user",
+    "content": "What is the first-line treatment for primary open-angle glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Medical therapy with topical intraocular pressure-lowering agents such as prostaglandin analogs, beta-blockers, or carbonic anhydrase inhibitors."
+  },
+  {
+    "role": "user",
+    "content": "What causes diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "It is caused by chronic hyperglycemia leading to damage of retinal blood vessels."
+  },
+  {
+    "role": "user",
+    "content": "What are the stages of diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Non-proliferative diabetic retinopathy (NPDR) and proliferative diabetic retinopathy (PDR)."
+  },
+  {
+    "role": "user",
+    "content": "What is the main feature of proliferative diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "The growth of new, fragile blood vessels (neovascularization) on the retina and optic disc."
+  },
+  {
+    "role": "user",
+    "content": "How is diabetic maculopathy characterized?"
+  },
+  {
+    "role": "assistant",
+    "content": "By retinal thickening and edema in the macular area leading to vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What is the primary treatment for proliferative diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Pan-retinal photocoagulation laser therapy."
+  },
+  {
+    "role": "user",
+    "content": "Define cataract."
+  },
+  {
+    "role": "assistant",
+    "content": "Cataract is the opacification or clouding of the crystalline lens leading to decreased vision."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of cataract?"
+  },
+  {
+    "role": "assistant",
+    "content": "Age-related changes (senile cataract), trauma, metabolic diseases, congenital causes, and certain medications like corticosteroids."
+  },
+  {
+    "role": "user",
+    "content": "What are the main types of age-related cataract?"
+  },
+  {
+    "role": "assistant",
+    "content": "Nuclear sclerosis, cortical cataract, and posterior subcapsular cataract."
+  },
+  {
+    "role": "user",
+    "content": "What is the definitive treatment for cataract?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical removal of the cloudy lens with implantation of an intraocular lens (IOL)."
+  },
+  {
+    "role": "user",
+    "content": "What is age-related macular degeneration?"
+  },
+  {
+    "role": "assistant",
+    "content": "AMD is a degenerative condition affecting the macula, leading to central vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are the two types of AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dry (atrophic) and wet (neovascular or exudative) AMD."
+  },
+  {
+    "role": "user",
+    "content": "What characterizes wet AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Growth of abnormal blood vessels under the retina causing leakage and rapid vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What is the main treatment for wet AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal anti-VEGF injections."
+  },
+  {
+    "role": "user",
+    "content": "What is conjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the conjunctiva, commonly known as 'pink eye.'"
+  },
+  {
+    "role": "user",
+    "content": "Name the common types of conjunctivitis."
+  },
+  {
+    "role": "assistant",
+    "content": "Infective (bacterial, viral), allergic, and toxic conjunctivitis."
+  },
+  {
+    "role": "user",
+    "content": "What is the usual treatment for bacterial conjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical antibiotic eye drops."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Separation of the neurosensory retina from the underlying retinal pigment epithelium."
+  },
+  {
+    "role": "user",
+    "content": "What are the common symptoms of retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sudden onset of floaters, flashes of light, and a shadow or curtain effect in vision."
+  },
+  {
+    "role": "user",
+    "content": "How is retinal detachment treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical intervention such as pneumatic retinopexy, scleral buckle, or vitrectomy."
+  },
+  {
+    "role": "user",
+    "content": "What is uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Uveitis is inflammation of the uveal tract including the iris, ciliary body, and choroid."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Autoimmune diseases, infections, and idiopathic causes."
+  },
+  {
+    "role": "user",
+    "content": "What is the first-line treatment for anterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical corticosteroids and cycloplegic agents."
+  },
+  {
+    "role": "user",
+    "content": "What is amblyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Amblyopia is reduced vision in one or both eyes caused by abnormal visual development during childhood."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of amblyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Strabismus, refractive errors, and deprivation such as cataract."
+  },
+  {
+    "role": "user",
+    "content": "How is amblyopia treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Correcting the underlying cause and patching the better eye to stimulate the weaker eye."
+  },
+  {
+    "role": "user",
+    "content": "What causes sudden loss of vision?"
+  },
+  {
+    "role": "assistant",
+    "content": "Causes include retinal artery occlusion, retinal detachment, vitreous hemorrhage, or optic neuritis."
+  },
+  {
+    "role": "user",
+    "content": "What is photophobia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Photophobia is sensitivity to light, often caused by corneal inflammation or uveitis."
+  },
+  {
+    "role": "user",
+    "content": "What is the function of the trabecular meshwork?"
+  },
+  {
+    "role": "assistant",
+    "content": "It drains aqueous humor from the anterior chamber, helping regulate intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is the typical visual field defect in glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Early peripheral field loss progressing to tunnel vision."
+  },
+  {
+    "role": "user",
+    "content": "What is the red reflex test used for?"
+  },
+  {
+    "role": "assistant",
+    "content": "To detect abnormalities in the lens or retina such as cataract or retinoblastoma."
+  },
+  {
+    "role": "user",
+    "content": "What is fluorescein angiography?"
+  },
+  {
+    "role": "assistant",
+    "content": "A diagnostic test to visualize retinal and choroidal blood vessels."
+  },
+  {
+    "role": "user",
+    "content": "What are the common symptoms of optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Pain on eye movement, decreased visual acuity, and color vision defects."
+  },
+  {
+    "role": "user",
+    "content": "What is the usual age group for optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Typically affects young adults, often between 20 to 40 years old."
+  },
+  {
+    "role": "user",
+    "content": "How is optic neuritis diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Clinical examination, visual evoked potentials, and MRI of the brain and orbits."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "High-dose intravenous corticosteroids to speed recovery, though spontaneous improvement may occur."
+  },
+  {
+    "role": "user",
+    "content": "What is a chalazion?"
+  },
+  {
+    "role": "assistant",
+    "content": "A chalazion is a chronic granulomatous inflammation of a meibomian gland presenting as a painless eyelid lump."
+  },
+  {
+    "role": "user",
+    "content": "How is chalazion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses, eyelid hygiene, and if persistent, surgical incision and curettage."
+  },
+  {
+    "role": "user",
+    "content": "What is the difference between a chalazion and a stye?"
+  },
+  {
+    "role": "assistant",
+    "content": "A stye (hordeolum) is an acute infection of the eyelid glands, painful and red, while a chalazion is chronic and painless."
+  },
+  {
+    "role": "user",
+    "content": "What is the common cause of dry eye syndrome?"
+  },
+  {
+    "role": "assistant",
+    "content": "Reduced tear production or increased tear evaporation leading to ocular surface dryness."
+  },
+  {
+    "role": "user",
+    "content": "How is dry eye syndrome managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial tears, environmental modifications, and in some cases, anti-inflammatory eye drops."
+  },
+  {
+    "role": "user",
+    "content": "What is retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of inherited retinal dystrophies characterized by progressive peripheral vision loss and night blindness."
+  },
+  {
+    "role": "user",
+    "content": "What is the typical fundus appearance in retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bone spicule-shaped pigment deposits in the mid-peripheral retina."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "Currently no cure; management includes low vision aids and genetic counseling."
+  },
+  {
+    "role": "user",
+    "content": "What is papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Papilledema is swelling of the optic disc due to raised intracranial pressure."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Headache, transient visual obscurations, nausea, and vomiting."
+  },
+  {
+    "role": "user",
+    "content": "How is papilledema diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Fundus examination showing optic disc swelling and imaging to find the cause of raised intracranial pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is the difference between papilledema and optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Papilledema is bilateral optic disc swelling due to increased intracranial pressure, while optic neuritis is usually unilateral inflammation of the optic nerve."
+  },
+  {
+    "role": "user",
+    "content": "What is keratoconus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Keratoconus is a progressive thinning and cone-shaped protrusion of the cornea causing visual distortion."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of keratoconus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blurred vision, astigmatism, and frequent changes in glasses prescription."
+  },
+  {
+    "role": "user",
+    "content": "How is keratoconus treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Glasses or contact lenses in early stages; corneal cross-linking or keratoplasty in advanced cases."
+  },
+  {
+    "role": "user",
+    "content": "What is the cause of central serous chorioretinopathy (CSCR)?"
+  },
+  {
+    "role": "assistant",
+    "content": "It is caused by leakage of fluid under the retina leading to localized retinal detachment, often linked to stress and corticosteroid use."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of CSCR?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blurred or distorted central vision and a dark spot in the central visual field."
+  },
+  {
+    "role": "user",
+    "content": "How is CSCR managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Usually self-limiting; observation is common, but photodynamic therapy or laser may be used if persistent."
+  },
+  {
+    "role": "user",
+    "content": "What is herpes simplex keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "An infection of the cornea caused by herpes simplex virus leading to dendritic ulcers."
+  },
+  {
+    "role": "user",
+    "content": "How is herpes simplex keratitis diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Clinical exam showing dendritic ulcers with fluorescein staining."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for herpes simplex keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical antiviral agents such as trifluridine or oral acyclovir."
+  },
+  {
+    "role": "user",
+    "content": "What is optic atrophy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Optic atrophy is the loss of some or all of the nerve fibers in the optic nerve resulting in pale optic disc and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What causes optic atrophy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Causes include glaucoma, optic neuritis, ischemia, trauma, and hereditary conditions."
+  },
+  {
+    "role": "user",
+    "content": "What is the clinical presentation of optic atrophy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Decreased visual acuity, visual field defects, and a pale optic disc on fundus exam."
+  },
+  {
+    "role": "user",
+    "content": "What is retinoblastoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Retinoblastoma is a malignant tumor of the retina occurring in young children."
+  },
+  {
+    "role": "user",
+    "content": "How does retinoblastoma present?"
+  },
+  {
+    "role": "assistant",
+    "content": "Leukocoria (white pupillary reflex), strabismus, and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for retinoblastoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Depends on size and location; options include chemotherapy, radiotherapy, laser therapy, cryotherapy, or enucleation."
+  },
+  {
+    "role": "user",
+    "content": "What is myopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Myopia, or nearsightedness, is a refractive error where distant objects appear blurry because light focuses in front of the retina."
+  },
+  {
+    "role": "user",
+    "content": "How is myopia corrected?"
+  },
+  {
+    "role": "assistant",
+    "content": "Using concave (minus) lenses or refractive surgery."
+  },
+  {
+    "role": "user",
+    "content": "What is presbyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Presbyopia is age-related loss of the eye's ability to focus on near objects due to reduced lens elasticity."
+  },
+  {
+    "role": "user",
+    "content": "At what age does presbyopia usually start?"
+  },
+  {
+    "role": "assistant",
+    "content": "Typically begins around age 40 to 45."
+  },
+  {
+    "role": "user",
+    "content": "How is presbyopia corrected?"
+  },
+  {
+    "role": "assistant",
+    "content": "Reading glasses or multifocal lenses."
+  },
+  {
+    "role": "user",
+    "content": "What is glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of optic neuropathies associated with elevated intraocular pressure and progressive vision loss."
+  },
+  {
+    "role": "user",
+    "content": "How is glaucoma treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Treatment options include topical medications, laser therapy, and surgical procedures to lower intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is primary open-angle glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "The most common type of glaucoma, characterized by gradual loss of vision and open anterior chamber angle."
+  },
+  {
+    "role": "user",
+    "content": "What is angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A type of glaucoma where the iris blocks the drainage angle, causing sudden rise in intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of acute angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Severe eye pain, redness, blurred vision, headache, nausea, and halos around lights."
+  },
+  {
+    "role": "user",
+    "content": "What is diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "A complication of diabetes that affects the retina, leading to vision loss due to microvascular damage."
+  },
+  {
+    "role": "user",
+    "content": "What are the stages of diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Stages include non-proliferative (mild to severe) and proliferative diabetic retinopathy."
+  },
+  {
+    "role": "user",
+    "content": "What is macular edema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Swelling of the macula due to fluid leakage, often associated with diabetic retinopathy."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for macular edema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Anti-VEGF injections, laser photocoagulation, or corticosteroids may be used."
+  },
+  {
+    "role": "user",
+    "content": "What is hypertensive retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Retinal vascular damage due to chronic high blood pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is cotton wool spot?"
+  },
+  {
+    "role": "assistant",
+    "content": "A retinal finding representing localized infarction of nerve fiber layer, often seen in hypertension or diabetes."
+  },
+  {
+    "role": "user",
+    "content": "What is a retinal vein occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blockage of the central or branch retinal vein causing hemorrhages and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What causes central retinal artery occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Often due to embolism, leading to sudden, painless loss of vision in one eye."
+  },
+  {
+    "role": "user",
+    "content": "What is amaurosis fugax?"
+  },
+  {
+    "role": "assistant",
+    "content": "Transient monocular blindness usually due to retinal ischemia from emboli or vascular spasm."
+  },
+  {
+    "role": "user",
+    "content": "What is age-related macular degeneration?"
+  },
+  {
+    "role": "assistant",
+    "content": "A degenerative disease affecting the central retina (macula), causing loss of central vision in the elderly."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dry (non-exudative) and wet (exudative) AMD. Wet type involves neovascularization."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for wet AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal anti-VEGF injections are the mainstay of treatment."
+  },
+  {
+    "role": "user",
+    "content": "What is glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of optic neuropathies associated with elevated intraocular pressure and progressive vision loss."
+  },
+  {
+    "role": "user",
+    "content": "How is glaucoma treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Treatment options include topical medications, laser therapy, and surgical procedures to lower intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is primary open-angle glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "The most common type of glaucoma, characterized by gradual loss of vision and open anterior chamber angle."
+  },
+  {
+    "role": "user",
+    "content": "What is angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A type of glaucoma where the iris blocks the drainage angle, causing sudden rise in intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of acute angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Severe eye pain, redness, blurred vision, headache, nausea, and halos around lights."
+  },
+  {
+    "role": "user",
+    "content": "What is diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "A complication of diabetes that affects the retina, leading to vision loss due to microvascular damage."
+  },
+  {
+    "role": "user",
+    "content": "What are the stages of diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Stages include non-proliferative (mild to severe) and proliferative diabetic retinopathy."
+  },
+  {
+    "role": "user",
+    "content": "What is macular edema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Swelling of the macula due to fluid leakage, often associated with diabetic retinopathy."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for macular edema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Anti-VEGF injections, laser photocoagulation, or corticosteroids may be used."
+  },
+  {
+    "role": "user",
+    "content": "What is hypertensive retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Retinal vascular damage due to chronic high blood pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is cotton wool spot?"
+  },
+  {
+    "role": "assistant",
+    "content": "A retinal finding representing localized infarction of nerve fiber layer, often seen in hypertension or diabetes."
+  },
+  {
+    "role": "user",
+    "content": "What is a retinal vein occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blockage of the central or branch retinal vein causing hemorrhages and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What causes central retinal artery occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Often due to embolism, leading to sudden, painless loss of vision in one eye."
+  },
+  {
+    "role": "user",
+    "content": "What is amaurosis fugax?"
+  },
+  {
+    "role": "assistant",
+    "content": "Transient monocular blindness usually due to retinal ischemia from emboli or vascular spasm."
+  },
+  {
+    "role": "user",
+    "content": "What is age-related macular degeneration?"
+  },
+  {
+    "role": "assistant",
+    "content": "A degenerative disease affecting the central retina (macula), causing loss of central vision in the elderly."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dry (non-exudative) and wet (exudative) AMD. Wet type involves neovascularization."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for wet AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal anti-VEGF injections are the mainstay of treatment."
+  },
+  {
+    "role": "user",
+    "content": "What is uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the uveal tract, which includes the iris, ciliary body, and choroid."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of anterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Eye pain, redness, photophobia, blurred vision, and small pupil."
+  },
+  {
+    "role": "user",
+    "content": "How is anterior uveitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical corticosteroids and cycloplegics are commonly used."
+  },
+  {
+    "role": "user",
+    "content": "What is posterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the retina and choroid, often causing floaters and decreased vision."
+  },
+  {
+    "role": "user",
+    "content": "What is toxoplasmosis chorioretinitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A common cause of posterior uveitis, presenting with focal retinal necrosis and vitritis."
+  },
+  {
+    "role": "user",
+    "content": "How is it treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oral antibiotics like pyrimethamine and sulfadiazine, along with folinic acid and corticosteroids."
+  },
+  {
+    "role": "user",
+    "content": "What is episcleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Benign, self-limiting inflammation of the episcleral tissue presenting with redness and mild discomfort."
+  },
+  {
+    "role": "user",
+    "content": "How is episcleritis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial tears or mild topical steroids; often resolves spontaneously."
+  },
+  {
+    "role": "user",
+    "content": "What is scleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Severe inflammation of the sclera, often associated with systemic autoimmune diseases."
+  },
+  {
+    "role": "user",
+    "content": "How is scleritis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Systemic NSAIDs, corticosteroids, or immunosuppressants depending on severity."
+  },
+  {
+    "role": "user",
+    "content": "What is endophthalmitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A vision-threatening infection of intraocular tissues, usually after surgery or trauma."
+  },
+  {
+    "role": "user",
+    "content": "How is endophthalmitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Urgent intravitreal antibiotics and sometimes vitrectomy are needed."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "It is a separation of the neurosensory retina from the underlying retinal pigment epithelium, often leading to vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are the symptoms of retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sudden onset of floaters, flashes of light, and a curtain-like shadow over the visual field."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Rhegmatogenous, tractional, and exudative retinal detachments."
+  },
+  {
+    "role": "user",
+    "content": "How is retinal detachment treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical repair using scleral buckling, pneumatic retinopexy, or vitrectomy."
+  },
+  {
+    "role": "user",
+    "content": "What is central serous chorioretinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "A condition involving serous detachment of the neurosensory retina due to leakage from the choroid."
+  },
+  {
+    "role": "user",
+    "content": "What causes central serous chorioretinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Often idiopathic but associated with corticosteroid use and stress."
+  },
+  {
+    "role": "user",
+    "content": "How is central serous chorioretinopathy managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Observation for spontaneous resolution or laser/photodynamic therapy if persistent."
+  },
+  {
+    "role": "user",
+    "content": "What is retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of inherited retinal dystrophies causing progressive peripheral vision loss and night blindness."
+  },
+  {
+    "role": "user",
+    "content": "What is the clinical triad of retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bone spicule pigmentation, arteriolar attenuation, and waxy optic disc pallor."
+  },
+  {
+    "role": "user",
+    "content": "What is optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the optic nerve, often presenting with vision loss and pain on eye movement."
+  },
+  {
+    "role": "user",
+    "content": "What causes optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Commonly associated with multiple sclerosis, but can also be post-viral or idiopathic."
+  },
+  {
+    "role": "user",
+    "content": "How is optic neuritis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "High-dose intravenous corticosteroids can accelerate visual recovery."
+  },
+  {
+    "role": "user",
+    "content": "What is papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bilateral optic disc swelling due to increased intracranial pressure."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Management focuses on treating the underlying cause of intracranial hypertension."
+  },
+  {
+    "role": "user",
+    "content": "What is amblyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Decreased visual acuity in one or both eyes due to abnormal visual development, often from strabismus or refractive error."
+  },
+  {
+    "role": "user",
+    "content": "How is amblyopia treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Patching the stronger eye, correcting refractive errors, and vision therapy."
+  },
+  {
+    "role": "user",
+    "content": "What is strabismus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Misalignment of the eyes, which can lead to diplopia or amblyopia if not corrected."
+  },
+  {
+    "role": "user",
+    "content": "What is esotropia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inward turning of one or both eyes."
+  },
+  {
+    "role": "user",
+    "content": "What is exotropia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Outward deviation of one or both eyes."
+  },
+  {
+    "role": "user",
+    "content": "What is ptosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Drooping of the upper eyelid due to weakness of the levator muscle or its innervation."
+  },
+  {
+    "role": "user",
+    "content": "What causes congenital ptosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Typically due to poor development of the levator palpebrae superioris muscle."
+  },
+  {
+    "role": "user",
+    "content": "What is blepharitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Chronic inflammation of the eyelid margins, often involving sebaceous glands."
+  },
+  {
+    "role": "user",
+    "content": "How is blepharitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Eyelid hygiene, warm compresses, topical or oral antibiotics."
+  },
+  {
+    "role": "user",
+    "content": "What is chalazion?"
+  },
+  {
+    "role": "assistant",
+    "content": "A painless, chronic lipogranulomatous inflammation of a meibomian gland."
+  },
+  {
+    "role": "user",
+    "content": "How is chalazion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses; if persistent, incision and curettage may be needed."
+  },
+  {
+    "role": "user",
+    "content": "What is a hordeolum?"
+  },
+  {
+    "role": "assistant",
+    "content": "An acute, painful infection of an eyelid gland, also known as a stye."
+  },
+  {
+    "role": "user",
+    "content": "How do you treat a hordeolum?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses and topical antibiotics; oral antibiotics if cellulitis develops."
+  },
+  {
+    "role": "user",
+    "content": "What is dacryocystitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Infection of the lacrimal sac, typically due to nasolacrimal duct obstruction."
+  },
+  {
+    "role": "user",
+    "content": "How is dacryocystitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Oral antibiotics and surgical intervention such as dacryocystorhinostomy if chronic."
+  },
+  {
+    "role": "user",
+    "content": "What is keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the cornea, which may be infectious or non-infectious."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Contact lens overuse, trauma, bacterial or viral infections, especially herpes simplex virus."
+  },
+  {
+    "role": "user",
+    "content": "How is herpes simplex keratitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical or oral antivirals like acyclovir; corticosteroids are contraindicated in epithelial disease."
+  },
+  {
+    "role": "user",
+    "content": "What is corneal ulcer?"
+  },
+  {
+    "role": "assistant",
+    "content": "An open sore on the cornea, usually due to infection, and can lead to vision loss if untreated."
+  },
+  {
+    "role": "user",
+    "content": "What is corneal abrasion?"
+  },
+  {
+    "role": "assistant",
+    "content": "A superficial scratch on the cornea, usually caused by trauma or foreign bodies."
+  },
+  {
+    "role": "user",
+    "content": "How is corneal abrasion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubricating drops, topical antibiotics, and avoiding contact lens use until healing."
+  },
+  {
+    "role": "user",
+    "content": "What is episcleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A benign, self-limiting inflammation of the episclera, often idiopathic or associated with systemic disease."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for episcleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Usually supportive care; topical NSAIDs or corticosteroids if symptoms are severe."
+  },
+  {
+    "role": "user",
+    "content": "What is scleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A painful, potentially vision-threatening inflammation of the sclera, often linked to systemic autoimmune diseases."
+  },
+  {
+    "role": "user",
+    "content": "How do you manage scleritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Systemic NSAIDs, corticosteroids, or immunosuppressants depending on severity."
+  },
+  {
+    "role": "user",
+    "content": "What is uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the uveal tract, which includes the iris, ciliary body, and choroid."
+  },
+  {
+    "role": "user",
+    "content": "What are signs of anterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Pain, photophobia, redness, and decreased vision; cells and flare visible on slit lamp exam."
+  },
+  {
+    "role": "user",
+    "content": "How is anterior uveitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical corticosteroids and cycloplegics; investigate systemic associations."
+  },
+  {
+    "role": "user",
+    "content": "What is posterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation involving the choroid and/or retina, often presenting with floaters and blurred vision."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of posterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Toxoplasmosis, sarcoidosis, tuberculosis, and autoimmune diseases."
+  },
+  {
+    "role": "user",
+    "content": "What is endophthalmitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A severe intraocular infection involving the vitreous and/or aqueous humor, often post-surgical or traumatic."
+  },
+  {
+    "role": "user",
+    "content": "How is endophthalmitis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal antibiotics, possible vitrectomy, and urgent ophthalmologic intervention."
+  },
+  {
+    "role": "user",
+    "content": "What is orbital cellulitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A serious infection of the orbital tissues, often secondary to sinusitis."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of orbital cellulitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Proptosis, pain with eye movement, restricted motility, and systemic illness."
+  },
+  {
+    "role": "user",
+    "content": "How is orbital cellulitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravenous antibiotics and imaging to rule out abscess; surgical drainage if needed."
+  },
+  {
+    "role": "user",
+    "content": "What is preseptal cellulitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Infection confined to the eyelid and periorbital tissues, anterior to the orbital septum."
+  },
+  {
+    "role": "user",
+    "content": "What is the difference between preseptal and orbital cellulitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Orbital cellulitis involves eye movement restriction and proptosis; preseptal does not."
+  },
+  {
+    "role": "user",
+    "content": "What is dry eye syndrome?"
+  },
+  {
+    "role": "assistant",
+    "content": "A condition where there is inadequate tear production or excessive tear evaporation, leading to ocular discomfort."
+  },
+  {
+    "role": "user",
+    "content": "What are symptoms of dry eye?"
+  },
+  {
+    "role": "assistant",
+    "content": "Burning, foreign body sensation, photophobia, and blurred vision."
+  },
+  {
+    "role": "user",
+    "content": "How is dry eye treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Artificial tears, punctal plugs, anti-inflammatory drops like cyclosporine."
+  },
+  {
+    "role": "user",
+    "content": "What is pterygium?"
+  },
+  {
+    "role": "assistant",
+    "content": "A triangular fibrovascular growth from the conjunctiva onto the cornea, often related to UV exposure."
+  },
+  {
+    "role": "user",
+    "content": "How is pterygium managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubricants for mild cases; surgical excision if vision is affected."
+  },
+  {
+    "role": "user",
+    "content": "What is pinguecula?"
+  },
+  {
+    "role": "assistant",
+    "content": "A yellowish, raised conjunctival lesion near the limbus, usually benign and asymptomatic."
+  },
+  {
+    "role": "user",
+    "content": "What is keratoconus?"
+  },
+  {
+    "role": "assistant",
+    "content": "A progressive thinning and conical deformation of the cornea, causing irregular astigmatism."
+  },
+  {
+    "role": "user",
+    "content": "How is keratoconus treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Contact lenses, corneal collagen cross-linking, or corneal transplantation in advanced cases."
+  },
+  {
+    "role": "user",
+    "content": "What is the function of the retina?"
+  },
+  {
+    "role": "assistant",
+    "content": "The retina converts light into neural signals for visual perception."
+  },
+  {
+    "role": "user",
+    "content": "What is optic disc drusen?"
+  },
+  {
+    "role": "assistant",
+    "content": "Calcified deposits within the optic nerve head, sometimes mimicking papilledema."
+  },
+  {
+    "role": "user",
+    "content": "What is Leber's hereditary optic neuropathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "A mitochondrial disorder causing sudden central vision loss in young males."
+  },
+  {
+    "role": "user",
+    "content": "What is toxoplasma retinochoroiditis?"
+  },
+  {
+    "role": "assistant",
+    "content": "An infection by Toxoplasma gondii causing focal necrotizing retinochoroiditis with vitreous inflammation."
+  },
+  {
+    "role": "user",
+    "content": "How is toxoplasma retinochoroiditis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Antimicrobial therapy such as pyrimethamine, sulfadiazine, and folinic acid, with or without corticosteroids."
+  },
+  {
+    "role": "user",
+    "content": "What is CMV retinitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A severe retinal infection by cytomegalovirus, commonly in immunocompromised patients."
+  },
+  {
+    "role": "user",
+    "content": "How is CMV retinitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Antiviral medications such as ganciclovir or valganciclovir; may require intravitreal injections."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal vein occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blockage of retinal venous flow, leading to hemorrhage, edema, and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are types of retinal vein occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Central retinal vein occlusion (CRVO) and branch retinal vein occlusion (BRVO)."
+  },
+  {
+    "role": "user",
+    "content": "What is oculomotor nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Paralysis of the third cranial nerve causing ptosis, “down-and-out” eye position, and possibly pupil involvement."
+  },
+  {
+    "role": "user",
+    "content": "What causes oculomotor nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Potential causes include ischemia, aneurysm, trauma, tumors, or diabetes."
+  },
+  {
+    "role": "user",
+    "content": "What is abducens nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Paralysis of the sixth cranial nerve causing inability to abduct the eye and horizontal diplopia."
+  },
+  {
+    "role": "user",
+    "content": "What causes abducens nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Causes include raised intracranial pressure, diabetes, trauma, or neoplasm."
+  },
+  {
+    "role": "user",
+    "content": "What is ocular myasthenia gravis?"
+  },
+  {
+    "role": "assistant",
+    "content": "An autoimmune disorder causing fatigable ptosis and diplopia due to neuromuscular junction weakness."
+  },
+  {
+    "role": "user",
+    "content": "How is ocular myasthenia gravis diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Diagnosis is via edrophonium test, anti-AChR antibodies, and electromyography."
+  },
+  {
+    "role": "user",
+    "content": "What is Graves' ophthalmopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "An autoimmune inflammatory disorder associated with thyroid disease, causing proptosis, lid retraction, and dry eyes."
+  },
+  {
+    "role": "user",
+    "content": "How is Graves' ophthalmopathy treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Manage thyroid, use corticosteroids, radiation, and surgery if vision is threatened."
+  },
+  {
+    "role": "user",
+    "content": "What is ocular rosacea?"
+  },
+  {
+    "role": "assistant",
+    "content": "A subtype of rosacea affecting eyelids and cornea, causing redness, blepharitis, and potential corneal damage."
+  },
+  {
+    "role": "user",
+    "content": "How is ocular rosacea managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Use lid hygiene, oral doxycycline, and topical azithromycin or metronidazole."
+  },
+  {
+    "role": "user",
+    "content": "What is Salzmann's nodular degeneration?"
+  },
+  {
+    "role": "assistant",
+    "content": "A degenerative disease with bluish-white subepithelial corneal nodules, often secondary to chronic inflammation."
+  },
+  {
+    "role": "user",
+    "content": "How is it treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Manage underlying condition; nodules removed if visually significant."
+  },
+  {
+    "role": "user",
+    "content": "What is Mooren's ulcer?"
+  },
+  {
+    "role": "assistant",
+    "content": "A painful, peripheral, idiopathic corneal ulceration that can progress centrally."
+  },
+  {
+    "role": "user",
+    "content": "How is Mooren's ulcer treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Use topical/systemic immunosuppressants; surgical procedures if needed."
+  },
+  {
+    "role": "user",
+    "content": "What is ocular cicatricial pemphigoid?"
+  },
+  {
+    "role": "assistant",
+    "content": "A mucous membrane autoimmune disease causing conjunctival scarring and symblepharon formation."
+  },
+  {
+    "role": "user",
+    "content": "How is it managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Systemic immunosuppression with steroids and steroid-sparing agents."
+  },
+  {
+    "role": "user",
+    "content": "What are ocular side-effects of hydroxychloroquine?"
+  },
+  {
+    "role": "assistant",
+    "content": "Retinopathy—paracentral or bull's-eye maculopathy—may be irreversible if not detected early."
+  },
+  {
+    "role": "user",
+    "content": "How is hydroxychloroquine retinopathy screened?"
+  },
+  {
+    "role": "assistant",
+    "content": "Use OCT, fundus autofluorescence, and visual field testing annually."
+  },
+  {
+    "role": "user",
+    "content": "What is orbital pseudotumor?"
+  },
+  {
+    "role": "assistant",
+    "content": "Idiopathic inflammatory mass in the orbit mimicking neoplasm, causing pain and proptosis."
+  },
+  {
+    "role": "user",
+    "content": "How is it treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "High-dose corticosteroids; radiation or surgery if refractory."
+  },
+  {
+    "role": "user",
+    "content": "What is nasolacrimal duct obstruction?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blockage of lacrimal drainage system, causing epiphora and recurrent dacryocystitis."
+  },
+  {
+    "role": "user",
+    "content": "How is it managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dilation, probing; dacryocystorhinostomy for adults."
+  },
+  {
+    "role": "user",
+    "content": "What is pingueculitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of a pinguecula causing redness and irritation."
+  },
+  {
+    "role": "user",
+    "content": "How is it treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubricants and topical NSAIDs or steroids in severe cases."
+  },
+  {
+    "role": "user",
+    "content": "What is Allergic conjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of conjunctiva due to allergens, causing itching, redness, and tearing."
+  },
+  {
+    "role": "user",
+    "content": "How is allergic conjunctivitis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Avoid triggers; use antihistamine/mast-cell stabilizer drops and lubricants."
+  },
+  {
+    "role": "user",
+    "content": "What is vernal keratoconjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A severe seasonal allergic inflammation of the conjunctiva and cornea, common in young males."
+  },
+  {
+    "role": "user",
+    "content": "How is vernal keratoconjunctivitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical antihistamines, mast-cell stabilizers, corticosteroids, and cold compresses."
+  },
+  {
+    "role": "user",
+    "content": "What is phlyctenular keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A small inflammatory nodule on the cornea caused by hypersensitivity to bacterial proteins."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for phlyctenular keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical steroids and antibiotics, and address underlying blepharitis or tuberculosis."
+  },
+  {
+    "role": "user",
+    "content": "What is punctate epithelial keratopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Superficial small epithelial lesions on the cornea causing foreign body sensation."
+  },
+  {
+    "role": "user",
+    "content": "What causes punctate epithelial keratopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Causes include dry eye, viral infection, UV exposure, or drug toxicity."
+  },
+  {
+    "role": "user",
+    "content": "What is Mooren's ulcer?"
+  },
+  {
+    "role": "assistant",
+    "content": "An idiopathic, painful peripheral corneal ulcer that may progress centrally."
+  },
+  {
+    "role": "user",
+    "content": "What is the management of Mooren's ulcer?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical/systemic immunosuppressants and surgical interventions if needed."
+  },
+  {
+    "role": "user",
+    "content": "What is symblepharon?"
+  },
+  {
+    "role": "assistant",
+    "content": "Adhesion between the palpebral and bulbar conjunctiva, often following inflammation or trauma."
+  },
+  {
+    "role": "user",
+    "content": "How is symblepharon treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical separation and ocular surface reconstruction."
+  },
+  {
+    "role": "user",
+    "content": "What is conjunctival melanoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A rare malignant tumor of the conjunctiva, presenting as a pigmented lesion."
+  },
+  {
+    "role": "user",
+    "content": "How is conjunctival melanoma treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical excision with wide margins and adjuvant cryotherapy or radiotherapy."
+  },
+  {
+    "role": "user",
+    "content": "What is ocular surface squamous neoplasia?"
+  },
+  {
+    "role": "assistant",
+    "content": "A dysplastic or malignant lesion of conjunctival and corneal epithelium."
+  },
+  {
+    "role": "user",
+    "content": "How is it managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical excision and topical chemotherapy (mitomycin C or 5-FU)."
+  },
+  {
+    "role": "user",
+    "content": "What is subconjunctival hemorrhage?"
+  },
+  {
+    "role": "assistant",
+    "content": "A benign bleeding between the conjunctiva and sclera often following trauma or Valsalva."
+  },
+  {
+    "role": "user",
+    "content": "What is pinguecula?"
+  },
+  {
+    "role": "assistant",
+    "content": "A raised yellow conjunctival lesion near the limbus; usually benign."
+  },
+  {
+    "role": "user",
+    "content": "What causes pinguecula?"
+  },
+  {
+    "role": "assistant",
+    "content": "UV exposure and chronic irritation."
+  },
+  {
+    "role": "user",
+    "content": "What is conjunctival chalasis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Excessive loose conjunctival tissue that can cause foreign body sensation and tearing."
+  },
+  {
+    "role": "user",
+    "content": "How is conjunctival chalasis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubrication, cauterization, or surgical excision."
+  },
+  {
+    "role": "user",
+    "content": "What is ocular surface squamous cell carcinoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A malignant tumor arising from conjunctival epithelium with potential local invasion."
+  },
+  {
+    "role": "user",
+    "content": "How is it treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Wide surgical excision and topical chemotherapy or cryotherapy."
+  },
+  {
+    "role": "user",
+    "content": "What is granulomatosis with polyangiitis ocular involvement?"
+  },
+  {
+    "role": "assistant",
+    "content": "Can cause scleritis, orbital inflammation, and necrotizing vasculitis in the eye."
+  },
+  {
+    "role": "user",
+    "content": "How is ocular GPA treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Systemic immunosuppression with cyclophosphamide or rituximab."
+  },
+  {
+    "role": "user",
+    "content": "What is Stevens–Johnson syndrome ocular manifestation?"
+  },
+  {
+    "role": "assistant",
+    "content": "Severe conjunctivitis, corneal sloughing, symblepharon, and risk of blindness."
+  },
+  {
+    "role": "user",
+    "content": "How is ocular SJS managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Treat acute inflammation, prevent scarring with amniotic membrane grafts and immunosuppression."
+  },
+  {
+    "role": "user",
+    "content": "What is meibomian gland dysfunction (MGD)?"
+  },
+  {
+    "role": "assistant",
+    "content": "MGD is a chronic abnormality of the meibomian glands, leading to altered tear film and dry eye."
+  },
+  {
+    "role": "user",
+    "content": "How is MGD managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses, lid hygiene, topical antibiotics or anti-inflammatories, and omega-3 supplements."
+  },
+  {
+    "role": "user",
+    "content": "What is hordeolum?"
+  },
+  {
+    "role": "assistant",
+    "content": "An acute infection of the eyelid glands, typically Staphylococcus, presenting as a painful swelling."
+  },
+  {
+    "role": "user",
+    "content": "How is hordeolum treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses and topical antibiotics. Incision and drainage if it persists."
+  },
+  {
+    "role": "user",
+    "content": "What is chalazion?"
+  },
+  {
+    "role": "assistant",
+    "content": "A chronic granulomatous inflammation of a meibomian gland presenting as a painless lump."
+  },
+  {
+    "role": "user",
+    "content": "What is the treatment for chalazion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Conservative management with warm compresses; incision and curettage if persistent."
+  },
+  {
+    "role": "user",
+    "content": "What is blepharitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "A common, chronic inflammation of the eyelid margins, often associated with bacterial colonization or MGD."
+  },
+  {
+    "role": "user",
+    "content": "How is blepharitis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lid hygiene, warm compresses, topical antibiotics, and managing dry eye."
+  },
+  {
+    "role": "user",
+    "content": "What is entropion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inward turning of the eyelid margin, causing lashes to rub against the cornea."
+  },
+  {
+    "role": "user",
+    "content": "What causes entropion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Involutional (age-related), cicatricial (scarring), or spastic (muscle spasm)."
+  },
+  {
+    "role": "user",
+    "content": "How is entropion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubrication for symptom relief; surgery for definitive correction."
+  },
+  {
+    "role": "user",
+    "content": "What is ectropion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Outward turning of the eyelid margin, exposing the conjunctiva and cornea."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of ectropion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Involutional, cicatricial, paralytic, and mechanical."
+  },
+  {
+    "role": "user",
+    "content": "How is ectropion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Lubricants for mild cases; surgery for structural correction."
+  },
+  {
+    "role": "user",
+    "content": "What is trichiasis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Misdirected eyelashes that touch the ocular surface, causing irritation or damage."
+  },
+  {
+    "role": "user",
+    "content": "How is trichiasis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Epilation, electrolysis, cryotherapy, or surgical correction."
+  },
+  {
+    "role": "user",
+    "content": "What is madarosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Loss of eyelashes or eyebrows, associated with blepharitis, alopecia, or systemic diseases."
+  },
+  {
+    "role": "user",
+    "content": "What is poliosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Localized whitening of eyelashes or eyebrows, often associated with chronic blepharitis or uveitis."
+  },
+  {
+    "role": "user",
+    "content": "What is epiphora?"
+  },
+  {
+    "role": "assistant",
+    "content": "Excessive tearing due to obstruction of the lacrimal drainage system or overproduction."
+  },
+  {
+    "role": "user",
+    "content": "How is epiphora diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Clinical exam, fluorescein dye disappearance test, and syringing of lacrimal system."
+  },
+  {
+    "role": "user",
+    "content": "What is dacryocystitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Infection of the lacrimal sac due to nasolacrimal duct obstruction."
+  },
+  {
+    "role": "user",
+    "content": "How is dacryocystitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Systemic antibiotics and surgical drainage or dacryocystorhinostomy (DCR)."
+  },
+  {
+    "role": "user",
+    "content": "What is congenital nasolacrimal duct obstruction?"
+  },
+  {
+    "role": "assistant",
+    "content": "A common cause of epiphora in infants due to failure of canalization of the duct."
+  },
+  {
+    "role": "user",
+    "content": "How is it managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Conservative massage initially; probing or surgery if it persists."
+  },
+  {
+    "role": "user",
+    "content": "What is ptosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Drooping of the upper eyelid, either congenital or acquired."
+  },
+  {
+    "role": "user",
+    "content": "What causes ptosis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Neurogenic, myogenic, aponeurotic, mechanical, or traumatic."
+  },
+  {
+    "role": "user",
+    "content": "How is ptosis corrected?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical correction based on severity and cause, such as levator resection or frontalis sling."
+  },
+  {
+    "role": "user",
+    "content": "What is Horner's syndrome?"
+  },
+  {
+    "role": "assistant",
+    "content": "A neurological condition caused by disruption of the sympathetic nerves supplying the eye, leading to ptosis, miosis, and anhidrosis."
+  },
+  {
+    "role": "user",
+    "content": "How is Horner's syndrome diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Using pharmacologic tests like apraclonidine or cocaine drops, along with imaging to find the lesion."
+  },
+  {
+    "role": "user",
+    "content": "What is third nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Paralysis of the oculomotor nerve causing ptosis, 'down and out' eye position, and possible pupil involvement."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of third nerve palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Aneurysms, diabetes, trauma, infections, and tumors."
+  },
+  {
+    "role": "user",
+    "content": "What is Bell's palsy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Acute unilateral facial nerve paralysis affecting eyelid closure and facial muscles."
+  },
+  {
+    "role": "user",
+    "content": "How is Bell's palsy treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Steroids, eye protection with lubricants and taping, and physical therapy."
+  },
+  {
+    "role": "user",
+    "content": "What is the significance of Marcus Gunn pupil?"
+  },
+  {
+    "role": "assistant",
+    "content": "An afferent pupillary defect indicating optic nerve or severe retinal disease."
+  },
+  {
+    "role": "user",
+    "content": "How is Marcus Gunn pupil detected?"
+  },
+  {
+    "role": "assistant",
+    "content": "By performing the swinging flashlight test."
+  },
+  {
+    "role": "user",
+    "content": "What is nystagmus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Involuntary rhythmic oscillation of the eyes."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of nystagmus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Congenital causes, vestibular disorders, neurological disease, drug toxicity."
+  },
+  {
+    "role": "user",
+    "content": "What is internuclear ophthalmoplegia?"
+  },
+  {
+    "role": "assistant",
+    "content": "A disorder of horizontal eye movement caused by lesion in the medial longitudinal fasciculus."
+  },
+  {
+    "role": "user",
+    "content": "What diseases commonly cause internuclear ophthalmoplegia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Multiple sclerosis in young adults; stroke in elderly."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal artery occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sudden blockage of the central or branch retinal artery causing acute painless vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are risk factors for retinal artery occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Atherosclerosis, emboli, carotid artery disease, cardiac disease."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal vein occlusion?"
+  },
+  {
+    "role": "assistant",
+    "content": "Blockage of the retinal vein causing retinal hemorrhages, edema, and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "How is retinal vein occlusion classified?"
+  },
+  {
+    "role": "assistant",
+    "content": "Central retinal vein occlusion (CRVO) or branch retinal vein occlusion (BRVO)."
+  },
+  {
+    "role": "user",
+    "content": "What is the typical fundus appearance in CRVO?"
+  },
+  {
+    "role": "assistant",
+    "content": "'Blood and thunder' appearance with widespread retinal hemorrhages."
+  },
+  {
+    "role": "user",
+    "content": "How is retinal vein occlusion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal anti-VEGF injections, steroids, and managing systemic risk factors."
+  },
+  {
+    "role": "user",
+    "content": "What is optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the optic nerve causing acute vision loss and pain on eye movement."
+  },
+  {
+    "role": "user",
+    "content": "What is the common cause of optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Multiple sclerosis and other demyelinating diseases."
+  },
+  {
+    "role": "user",
+    "content": "What is papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Swelling of the optic disc due to raised intracranial pressure."
+  },
+  {
+    "role": "user",
+    "content": "How is papilledema detected?"
+  },
+  {
+    "role": "assistant",
+    "content": "Fundoscopy showing blurred disc margins and venous engorgement."
+  },
+  {
+    "role": "user",
+    "content": "What is the danger of papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Risk of permanent optic nerve damage and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What is glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of diseases characterized by progressive optic neuropathy and visual field loss."
+  },
+  {
+    "role": "user",
+    "content": "What are the main types of glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Primary open-angle glaucoma and primary angle-closure glaucoma."
+  },
+  {
+    "role": "user",
+    "content": "What is the typical presentation of open-angle glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Asymptomatic early on with gradual peripheral vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What causes angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Sudden blockage of the trabecular meshwork by the iris leading to increased intraocular pressure."
+  },
+  {
+    "role": "user",
+    "content": "What are the symptoms of angle-closure glaucoma?"
+  },
+  {
+    "role": "assistant",
+    "content": "Severe eye pain, headache, nausea, vomiting, blurred vision, and halos around lights."
+  },
+  {
+    "role": "user",
+    "content": "How is angle-closure glaucoma treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Emergency lowering of intraocular pressure with medications and laser peripheral iridotomy."
+  },
+  {
+    "role": "user",
+    "content": "What is diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "A microvascular complication of diabetes causing damage to retinal blood vessels and vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are the stages of diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Non-proliferative (background) and proliferative diabetic retinopathy."
+  },
+  {
+    "role": "user",
+    "content": "What characterizes proliferative diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Neovascularization and risk of vitreous hemorrhage and retinal detachment."
+  },
+  {
+    "role": "user",
+    "content": "What is diabetic maculopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Damage to the macula causing vision loss from macular edema or ischemia."
+  },
+  {
+    "role": "user",
+    "content": "How is diabetic retinopathy screened?"
+  },
+  {
+    "role": "assistant",
+    "content": "Regular fundus examination, retinal photography, and fluorescein angiography."
+  },
+  {
+    "role": "user",
+    "content": "What treatments are used for diabetic retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Laser photocoagulation, intravitreal anti-VEGF injections, and strict glycemic control."
+  },
+  {
+    "role": "user",
+    "content": "What is age-related macular degeneration (AMD)?"
+  },
+  {
+    "role": "assistant",
+    "content": "A degenerative disease of the macula leading to central vision loss in elderly patients."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Dry (atrophic) AMD and wet (neovascular) AMD."
+  },
+  {
+    "role": "user",
+    "content": "What characterizes dry AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Presence of drusen and gradual macular atrophy."
+  },
+  {
+    "role": "user",
+    "content": "What characterizes wet AMD?"
+  },
+  {
+    "role": "assistant",
+    "content": "Choroidal neovascularization causing rapid vision loss."
+  },
+  {
+    "role": "user",
+    "content": "How is wet AMD treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Intravitreal anti-VEGF injections and sometimes photodynamic therapy."
+  },
+  {
+    "role": "user",
+    "content": "What is retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Separation of the neurosensory retina from the underlying retinal pigment epithelium."
+  },
+  {
+    "role": "user",
+    "content": "What are types of retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Rhegmatogenous, tractional, and exudative detachments."
+  },
+  {
+    "role": "user",
+    "content": "What causes rhegmatogenous retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "A retinal tear or hole allowing fluid to enter the subretinal space."
+  },
+  {
+    "role": "user",
+    "content": "What are the symptoms of retinal detachment?"
+  },
+  {
+    "role": "assistant",
+    "content": "Flashes of light, floaters, and a curtain or shadow over vision."
+  },
+  {
+    "role": "user",
+    "content": "How is retinal detachment treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical repair such as pneumatic retinopexy, scleral buckle, or vitrectomy."
+  },
+  {
+    "role": "user",
+    "content": "What is central serous retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Accumulation of serous fluid under the retina causing localized detachment."
+  },
+  {
+    "role": "user",
+    "content": "Who is most affected by central serous retinopathy?"
+  },
+  {
+    "role": "assistant",
+    "content": "Young to middle-aged men, often stressed or using corticosteroids."
+  },
+  {
+    "role": "user",
+    "content": "What is uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the uveal tract including the iris, ciliary body, and choroid."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Anterior, intermediate, posterior, and panuveitis."
+  },
+  {
+    "role": "user",
+    "content": "What symptoms occur in anterior uveitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Pain, redness, photophobia, and decreased vision."
+  },
+  {
+    "role": "user",
+    "content": "How is uveitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical steroids, cycloplegics, and treatment of underlying cause."
+  },
+  {
+    "role": "user",
+    "content": "What is optic disc drusen?"
+  },
+  {
+    "role": "assistant",
+    "content": "Calcified deposits in the optic nerve head, sometimes mimicking papilledema."
+  },
+  {
+    "role": "user",
+    "content": "How is optic disc drusen diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "By fundus examination, ultrasound, or autofluorescence imaging."
+  },
+  {
+    "role": "user",
+    "content": "What is retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "A group of inherited retinal dystrophies causing progressive peripheral vision loss and night blindness."
+  },
+  {
+    "role": "user",
+    "content": "What are the fundus findings in retinitis pigmentosa?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bone spicule pigmentation, attenuated vessels, and waxy pallor of optic disc."
+  },
+  {
+    "role": "user",
+    "content": "What is amblyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Reduced vision in one or both eyes due to abnormal visual development in childhood."
+  },
+  {
+    "role": "user",
+    "content": "What causes amblyopia?"
+  },
+  {
+    "role": "assistant",
+    "content": "Strabismus, refractive errors, or visual deprivation during childhood."
+  },
+  {
+    "role": "user",
+    "content": "How is amblyopia treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Correcting the underlying cause and patching the better-seeing eye."
+  },
+  {
+    "role": "user",
+    "content": "What is strabismus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Misalignment of the eyes causing diplopia or suppression."
+  },
+  {
+    "role": "user",
+    "content": "What are common types of strabismus?"
+  },
+  {
+    "role": "assistant",
+    "content": "Esotropia (inward) and exotropia (outward)."
+  },
+  {
+    "role": "user",
+    "content": "How is strabismus diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Cover test, Hirschberg test, and measurement of ocular deviations."
+  },
+  {
+    "role": "user",
+    "content": "What is papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Swelling of the optic disc due to increased intracranial pressure."
+  },
+  {
+    "role": "user",
+    "content": "What are the symptoms of papilledema?"
+  },
+  {
+    "role": "assistant",
+    "content": "Headache, transient visual obscurations, and nausea."
+  },
+  {
+    "role": "user",
+    "content": "How is papilledema diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Fundus examination showing blurred disc margins and imaging to find cause."
+  },
+  {
+    "role": "user",
+    "content": "What is optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the optic nerve causing acute vision loss and pain on eye movement."
+  },
+  {
+    "role": "user",
+    "content": "Which conditions are associated with optic neuritis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Multiple sclerosis and other demyelinating diseases."
+  },
+  {
+    "role": "user",
+    "content": "How is optic neuritis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "High-dose intravenous corticosteroids."
+  },
+  {
+    "role": "user",
+    "content": "What is a chalazion?"
+  },
+  {
+    "role": "assistant",
+    "content": "A chronic granulomatous inflammation of a meibomian gland."
+  },
+  {
+    "role": "user",
+    "content": "How is chalazion treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Warm compresses, corticosteroid injections, or surgical removal."
+  },
+  {
+    "role": "user",
+    "content": "What is blepharitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the eyelid margins causing redness, crusting, and irritation."
+  },
+  {
+    "role": "user",
+    "content": "What are common causes of blepharitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bacterial infection, seborrheic dermatitis, and rosacea."
+  },
+  {
+    "role": "user",
+    "content": "How is blepharitis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Eyelid hygiene, warm compresses, and topical antibiotics if needed."
+  },
+  {
+    "role": "user",
+    "content": "What is conjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the conjunctiva causing redness, discharge, and irritation."
+  },
+  {
+    "role": "user",
+    "content": "What are the types of conjunctivitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Bacterial, viral, allergic, and chemical conjunctivitis."
+  },
+  {
+    "role": "user",
+    "content": "How is bacterial conjunctivitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical antibiotics."
+  },
+  {
+    "role": "user",
+    "content": "How is allergic conjunctivitis managed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Avoidance of allergens and topical antihistamines."
+  },
+  {
+    "role": "user",
+    "content": "What is keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Inflammation of the cornea."
+  },
+  {
+    "role": "user",
+    "content": "What are causes of keratitis?"
+  },
+  {
+    "role": "assistant",
+    "content": "Infections (bacterial, viral, fungal), trauma, and dry eyes."
+  },
+  {
+    "role": "user",
+    "content": "How is herpes simplex keratitis diagnosed?"
+  },
+  {
+    "role": "assistant",
+    "content": "Characteristic dendritic corneal ulcer seen on fluorescein staining."
+  },
+  {
+    "role": "user",
+    "content": "How is herpes simplex keratitis treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Topical antiviral agents like acyclovir."
+  },
+  {
+    "role": "user",
+    "content": "What is cataract?"
+  },
+  {
+    "role": "assistant",
+    "content": "Opacity of the crystalline lens causing progressive vision loss."
+  },
+  {
+    "role": "user",
+    "content": "What are types of cataract?"
+  },
+  {
+    "role": "assistant",
+    "content": "Nuclear, cortical, posterior subcapsular, and congenital cataracts."
+  },
+  {
+    "role": "user",
+    "content": "How is cataract treated?"
+  },
+  {
+    "role": "assistant",
+    "content": "Surgical removal with intraocular lens implantation."
+  }
+]
