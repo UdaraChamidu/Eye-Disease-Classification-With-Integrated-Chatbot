@@ -71,6 +71,68 @@ if st.session_state.memory is None and st.session_state.vectorstore:
         return_messages=True
     )
 
+# cnn prediction send to RAG
+def summarize_predicted_disease(disease_name: str, confidence: float) -> str:
+    # Build the question we’ll send to RAG/LLM
+    summary_prompt = f"""
+A CNN classified an uploaded eye image as: {disease_name} with confidence {confidence:.0%}.
+
+Write a concise, patient-friendly overview with bullet points:
+- What it is (1–2 sentences)
+- Common symptoms
+- How it’s diagnosed (key exams/tests)
+- Evidence-based treatments (first-line and advanced)
+- When it’s urgent / red flags
+- Prevention and risk factors
+
+Keep it ~150–200 words. Avoid jargon. If uncertain, mention that a clinical exam is needed.
+"""
+
+    # Prefer RAG if the vectorstore is available, else fall back to plain LLM
+    try:
+        if st.session_state.get("vectorstore") is not None:
+            qa_chain = get_qa_chain()
+            result = qa_chain.invoke({"question": summary_prompt})
+            return result["answer"]
+        else:
+            llm = ChatGoogleGenerativeAI(
+                google_api_key=os.environ.get("GOOGLE_API_KEY"),
+                model="gemini-2.5-flash",
+                temperature=0.2
+            )
+            msg = llm.invoke(summary_prompt)
+            return msg.content
+    except Exception as e:
+        st.warning(f"RAG/LLM call failed: {e}")
+        return "Unable to generate a summary right now. Please try again."
+
+def summarize_differential(confidence: float) -> str:
+    diff_prompt = f"""
+The model's confidence is only {confidence:.0%}. Provide a brief caution plus a short differential overview among Cataract, Diabetic Retinopathy, and Glaucoma:
+- Key distinguishing symptoms/signs
+- Typical tests to confirm
+- What the patient should do next
+
+Limit to ~120 words, bullet points, patient-friendly.
+"""
+    try:
+        if st.session_state.get("vectorstore") is not None:
+            qa_chain = get_qa_chain()
+            result = qa_chain.invoke({"question": diff_prompt})
+            return result["answer"]
+        else:
+            llm = ChatGoogleGenerativeAI(
+                google_api_key=os.environ.get("GOOGLE_API_KEY"),
+                model="gemini-2.5-flash",
+                temperature=0.2
+            )
+            msg = llm.invoke(diff_prompt)
+            return msg.content
+    except Exception:
+        return ""
+
+
+
 # Mode selection
 if st.session_state.mode is not None:
     if st.button("🔙 Back to Mode Selection"):
@@ -143,13 +205,26 @@ if st.session_state.mode == "image":
         # Predict
         prediction = cnn_model.predict(img_array)
         st.write("Raw prediction:", prediction)
-        
+
         class_names = ['Cataract', 'Diabetic Retinopathy', 'Glaucoma', 'Normal']
         predicted_index = np.argmax(prediction[0])
         confidence = prediction[0][predicted_index]
-        
-        st.success(f"Prediction: **{class_names[predicted_index]}** with confidence {confidence*100:.2f}%")   
+        predicted_disease = class_names[predicted_index]
 
+        st.success(f"Prediction: **{predicted_disease}** with confidence {confidence*100:.2f}%")
+
+        # NEW: Ask RAG/LLM for a short overview and treatments
+        with st.spinner("Generating information about the predicted disease..."):
+            overview = summarize_predicted_disease(predicted_disease, confidence)
+            st.markdown(overview)
+
+        # Optional: If the model isn’t confident, show a brief differential
+        if confidence < 0.60:
+            with st.expander("Model is unsure — see possible alternatives"):
+                diff = summarize_differential(confidence)
+                if diff:
+                    st.markdown(diff)
+  
   
 # 💬 Text-Only Mode
 elif st.session_state.mode == "text":
