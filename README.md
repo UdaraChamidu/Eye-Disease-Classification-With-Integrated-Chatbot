@@ -1,5 +1,8 @@
 # Eye Disease Classification with Integrated Chatbot
 
+- this repo is moved to another location. currently this is not using.
+https://github.com/UdaraChamidu/EyeDoc
+
 ## 📌 Overview
 This research project focuses on developing a **multimodal AI system** for predicting eye diseases by integrating **OCT image analysis** and **text-based symptom descriptions**. The system uses a **Vision Transformer/CNN** for image data and a **Retrieval-Augmented Generation (RAG)** pipeline for text data, combined into a chatbot interface for user-friendly interactions.
 
